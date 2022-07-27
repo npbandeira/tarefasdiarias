@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+html, body{
+   height: 100%;/*Comando para colocar o rodapé no final da página*/
+}
+
+
+/*Formatando o corpo da página*/
+body{
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    background: #84b6f4;
+    display: flex;/*Comando para colocar o rodapé no final da página*/
+    flex-direction: column;/*Comando para colocar o rodapé no final da página*/
+}
+
+
+.cabecalho{
+    width: 100%;
+    height: 85px;
+    background-color: rgb(255, 115, 165);
+}
+
+/*Colocando uma DIV ao lado da outra no cabeçalho*/
+#cabecalho{
+    width: 100%;
+}
+
+.logo{
+    position: relative;
+    width: 10%;
+    float: left;
+}
+.logo img{
+    width: 80%;
+    padding: 10px;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+/*Formatando o tamanho da logo no cabeçalho*/
+.cabecalho img{
+    width: 80%;
+}
+
+/*Formatando o Titulo 1 no cabeçalho*/
+.cabecalho h2{
+  padding-top: 25px; 
+  color: #1476df; 
+}
+
+.conteudo{
+    flex: 1 0 auto;/*Comando para colocar o rodapé no final da página*/
+}
+
+/*Formatando o container principal(Tamanho, Margens, Espaços, Cor, Borda)*/
+.container{
+    width: 100%;
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.container .titulo2{
+    text-align: center;
+    color: #ff73a5;
+}
+
+.paragrafo{
+    text-align: justify;
+    margin-bottom: 17px;
+}
+
+.navegacao{
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color:#fff;
+}
+
+.navegacao :hover{
+  color: #ff73a5
+}
+
+
+.rodape{
+    background-color: rgb(255, 115, 165);
+    width: 100%;
+    height: 60px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    line-height: 60px;
+    flex-shrink: 0;
+}
