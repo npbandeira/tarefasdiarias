@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+html, body{
+   height: 100%;/*Comando para colocar o rodapé no final da página*/
+}
+
+body h1{
+    text-align: center;
+}
+
+/*Formatando o corpo da página*/
+body{
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    background: #84b6f4;
+    display: flex;/*Comando para colocar o rodapé no final da página*/
+    flex-direction: column;/*Comando para colocar o rodapé no final da página*/
+}
+.lista_usuario table {
+    text-align: center;
+    margin: auto;
+}
+
+

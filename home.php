@@ -7,31 +7,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gerenciador de Tarefas</title>
     <link rel="shortcut icon" href="img/listatarefas.png">
-    <link rel="stylesheet"  href="css/stylehome.css">
+    <link rel="stylesheet" href="css/stylehome.css">
 </head>
 
 <body>
 
     <header class="cabecalho">
-        <div class="cabecalho1">
-            
-            <div class="logo">
-               <a href="login.php"><img src="img/listatarefas.png"></a>
-            </div>
 
+        <div class="logo">
+            <a href="login.php" title="Ir para pagina de login"><img src="img/listatarefas.png"></a>
         </div>
+        <nav class="navegacao">
+            <div class="botao">
+                <a href="login.php"><button>Faça seu login </button></a>
+            </div>
+        </nav>
     </header>
-
-    <nav class="navegacao">
-        <a href="login.php"> Faça seu login </a> 
-    </nav>
    
     <br><br>
-
     <!--Criando a Sessão Principal da Página-->
     <div class="conteudo">
         <section class="container">
-            <h1 class="titulo2">BEM VINDO AO REGENRIADOR DE TAREFAS! </h1><BR><BR>
+            <h1 class="titulo2">BEM VINDO AO GERENCIADOR DE TAREFAS! </h1><BR><BR>
 
             <p class="paragrafo">O gerenciador de tarefas é uma ferramenta que serve para listar as atividades editadas pelo usuário que devem ser executadas individualmente ou por um grupo de pessoas.</p>
 
@@ -41,9 +38,10 @@
     </div>
 
     <footer class="rodape">
-        <p> AM - 2021. </p>
+        <p> AM - 2021.</p>
 
     </footer>
-    
+
 </body>
+
 </html>
